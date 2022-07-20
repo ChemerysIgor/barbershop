@@ -1,0 +1,46 @@
+.price {
+    background-color: #111319;
+    background-image: url(../../image/prices.png);
+    padding-top: 84px;
+    padding-bottom: 84px;
+}
+
+.price__list {
+    padding: 30px;
+}
+
+.price_pre--title {
+    color: rgba(157, 164, 189, 0.6);
+}
+
+.price_title {
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 49px;
+    letter-spacing: 0.05em;
+    color: #ffffff;
+}
+
+.price__items {
+    font-family: "Open Sans";
+    font-size: 14px;
+    line-height: calc(30 / 14);
+    letter-spacing: 0.02em;
+    color: #9da4bd;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    &::after {
+        content: "";
+        border-bottom: 1px solid rgba(157, 164, 189, 0.12);
+        flex-grow: 1;
+        margin-left: 6px;
+        margin-right: 6px;
+    }
+}
+
+.price__cost {
+    order: 2;
+}

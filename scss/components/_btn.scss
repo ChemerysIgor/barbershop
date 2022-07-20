@@ -1,0 +1,43 @@
+.btn--light {
+    width: 160px;
+    height: 40px;
+    border-radius: 25px;
+    border: 1px solid #ff6c00;
+    font-family: "Open Sans";
+    font-weight: 600;
+    font-size: 12px;
+    line-height: calc(16 / 12);
+    letter-spacing: 0.09em;
+    text-transform: uppercase;
+    color: #303030;
+    background-color: transparent;
+    display: block;
+    margin: 0 auto;
+    &:hover,
+    &:focus {
+        background-color: #ff6c00;
+        color: #ffffff;
+    }
+}
+
+.btn--dark {
+    width: 160px;
+    height: 40px;
+    border-radius: 25px;
+    border: 1px solid #ff6c00;
+    font-family: "Open Sans";
+    font-weight: 600;
+    font-size: 12px;
+    line-height: calc(16 / 12);
+    letter-spacing: 0.09em;
+    text-transform: uppercase;
+    color: #ffffff;
+    background-color: transparent;
+    display: block;
+    margin: 0 auto;
+    &:hover,
+    &:focus {
+        background-color: #ff6c00;
+        color: #ffffff;
+    }
+}

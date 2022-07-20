@@ -1,0 +1,91 @@
+.hero__pre-title {
+    font-family: "Open Sans";
+    font-weight: 600;
+    font-size: 11px;
+    line-height: calc(15 / 11);
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: rgba(157, 164, 189, 0.6);
+    margin-left: 80px;
+    position: relative;
+    &::before {
+        content: "";
+        position: absolute;
+        top: 5px;
+        left: -80px;
+        width: 60px;
+        height: 1px;
+        background: rgba(157, 164, 189, 0.6);
+    }
+}
+
+.hero__title {
+    font-family: "Raleway";
+    font-weight: 700;
+    font-size: 48px;
+    line-height: calc(56 / 48);
+    letter-spacing: 0.05em;
+    color: #ffffff;
+}
+
+.hero__after-title {
+    font-family: "Open Sans";
+    font-size: 16px;
+    line-height: calc(26 / 16);
+    letter-spacing: 0.02em;
+    color: #9da4bd;
+    max-width: 306px;
+}
+
+.hero-conteiner {
+    // height: 480px;
+    // width: 480px;
+    display: flex;
+    width: 480px;
+    margin: 0 auto;
+    // padding-left: 31px;
+    // padding-right: 31px;
+}
+
+.hero__content {
+    padding: 208px 31px 183px;
+    background-image: linear-gradient( rgba(25, 28, 38, 0.2), rgba(25, 28, 38, 0.2)), url(../../image/bd-img-1x.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    flex-grow: 1;
+}
+
+//  <-------------------side-bar----------------------->
+.side-bar {
+    display: none;
+    @media screen and(min-width: 768px) {
+        display: flex;
+        width: 90px;
+        background-color: #ffffff;
+        align-items: flex-end;
+    }
+}
+
+.side-bar__content {
+    display: flex;
+    padding-left: 35px;
+    padding-bottom: 40px;
+}
+
+.side-bar__list {
+    @media screen and (min-width: 768px) {
+        display: flex;
+        gap: 40px;
+        transform: rotate(-90deg) translate(-19px);
+        transform-origin: top left;
+        align-items: center;
+        &::before {
+            content: "";
+            width: 60px;
+            height: 1px;
+            background-color: #303030;
+            margin-right: 40px;
+        }
+    }
+}

@@ -1,0 +1,63 @@
+.masters {
+    padding-top: 84px;
+    padding-bottom: 84px;
+    background-color: #f7f7f7;
+}
+
+.masters__list {
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+}
+
+.masters__card>img {
+    width: 418px;
+    height: 346px;
+}
+
+.masters_name {
+    margin-top: 30px;
+    font-family: "Open Sans";
+    font-size: 18px;
+    line-height: calc(25 / 18);
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #303030;
+}
+
+.masters__position {
+    margin-top: 8px;
+    font-family: "Open Sans";
+    font-size: 14px;
+    line-height: calc(19 / 14);
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #ff6c00;
+}
+
+.soc__list {
+    margin-top: 30px;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.soc_item {
+    width: 44px;
+    height: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    border-radius: 50%;
+    border: none;
+}
+
+// .soc_item:hover>.networks,
+// .soc_item:focus>.networks {
+//     fill: #ff6c00;
+// }
+.soc_item:hover>.soc__link {
+    fill: #ff6c00;
+}
